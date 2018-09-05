@@ -1,7 +1,7 @@
 var recipes = {};
 
 
-function (obj, key, value) {
+function pdateObjectWithKeyAndValue(obj, key, value) {
   obj[key] = value
   return obj
 }
